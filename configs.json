@@ -1,0 +1,6 @@
+{
+  "slack_bot_token":"",
+  "git_hub_key": "",
+  "git_hub_org": "",
+  "git_hub_repo_list": ["",""]
+}
