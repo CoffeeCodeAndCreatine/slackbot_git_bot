@@ -5,7 +5,7 @@ This is a basic of how to integrate git API's into a slack bot.
 1. Pull a list of open pull requests for a given git organization.  
 
 ## Explanation of Files
-1. slackbot_git_boy.py: Source code for the slack bot
+1. slackbot_git_bot.py: Source code for the slack bot
 2. github_integration.py: Source code responsible for making the git call to github
 3. configs.py: Confings used for auth
 4. requirements.txt: List of requirements for the project
@@ -35,8 +35,8 @@ At a high level, the steps you will need to take to get this set up are listed b
 4. Grant the bot user chat:write:bot scope
 7. Copy the slack bot token to the configs.json file
 8. Add in the org name, git token, and repo names into the configs.json 
-8. In a terminal session launch the slack bot
-9. Type 'pull requests' into slack 
+9. In a terminal session launch the slack bot
+10. Type 'pull requests' into slack 
 
 
 ## How To Video
